@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=clr, initial-scale=1.0" />
-    <title>Beautiful- Arts</title>
+    <title>About Beautiful Arts</title>
     <link rel="stylesheet" href="assets/style/css/main.min.css" />
     <link rel="shortcut icon" href="assets\svg\logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,11 +21,11 @@
     ></script>
 
     <style>
-      #home {
-        background-image: url("assets/images/Museum Art.jpg");
+      #aboutus {
+        background-image: url("assets/images/pexels-w-w-299285-889839.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
         background-position: center;
+        background-size: cover;
       }
     </style>
   </head>
@@ -33,7 +33,7 @@
   <body class="min-vh-100">
     <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
       <div class="container py-4">
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand" href="Homepage.html">
           <img
             src="assets\svg\logo.svg"
             alt="Logo"
@@ -58,12 +58,14 @@
               <a
                 class="nav-link active text-light"
                 aria-current="page"
-                href="#home"
+                href="Homepage.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="Gallery.html" target="_blank">Gallery</a>
+              <a class="nav-link text-light" href="Gallery.html" target="_blank"
+                >Gallery</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -76,7 +78,9 @@
                 More
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="About Us.html" target="_blank">About-Us</a></li>
+                <li>
+                  <a class="dropdown-item" href="#aboutus">About-Us</a>
+                </li>
                 <li>
                   <a class="dropdown-item" href="#sponsorship">Sponsorship</a>
                 </li>
@@ -105,30 +109,24 @@
       </div>
     </nav>
 
-    <section id="home" class="min-vh-100">
-      <div
-        class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 container-fluid z-1" 
-      ></div>
-      <div class="position-relative min-vh-100 z-2 py-5">
-        <div class="container p-5">
-          <h1 class="display-1 fw-bold text-warning">Beautiful Arts Gallery</h1>
-          <h3 class="display-6 text-warning mt-2">Where Art Meets Elegance!</h3>
-          <h5 class="fs-4 text-warning mt-5">
-            A blend of Modesty and Elegance at its Peak.
-          </h5>
-          <p class="lead fs-3 text-light fw-lighter">
-            Beautiful Arts is more than just paintings
-            on a wall, it is breathtaking Art that leaves you with so much warmth
-            and satisfaction in your heart leave alone an amazing experience, all of which you most certainly
-            deserve! Enjoy the Experience as you get to view Our wonderful Art and Get the privilege of having a
-            glimpse of our world.
-          </p>
+    <section id="aboutus" class="min-vh-100">
+      <div class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 container-fluid z-1"></div>
+<div class="py-5">
+    <div class="position-relative min-vh-100 z-2 pt-3">
+      <div class="container pt-5 z-2">
+        <h1 class="fw-bold display-1 text-warning ">About Beautiful Arts</h1>
+        <p class=" fs-4 text-warning  lead mt-4">
+          Beautiful Arts is an organisation that was formed in the early 2000's.
+          It is an organisation that is aimed at providing a space for all
+          artists in the world to showcase their talents and to allow them to receieve rewards for their amazing work through various sponsors.
+          It is a safe platform that ensures that every artist's voice is heard through their art and that every artist gets the reward they deserve. Here at Beautiful Arts Gallery we are not just an organisation, but we are a family. Take the initiative and join the family by clicking the link below.
+        </p>
 
-          <button type="button" class="btn btn-lg btn-warning mt-5">
-            Join The Family
-          </button>
-        </div>
-      </div>
+        <button type="button" class="btn btn-primary text-warning rounded-5 mt-4">Join The Family</button>
     </section>
   </body>
+      </div>
+      </div>
+
+      
 </html>
